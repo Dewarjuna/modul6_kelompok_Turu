@@ -1,0 +1,40 @@
+{
+  "members" : [
+    {
+       "firstName": "Nuruddin",
+       "lastName": "Rityo Salindra",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302204014"
+    },
+    {
+      "firstName": "Dewa",
+      "lastName": "Arjuna",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204031"
+    },
+    {
+      "firstName": "Rizky",
+      "lastName": "Eventa Bahtiar",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204060"
+    }
+    {
+      "firstName": "Anwar",
+      "lastName": "Yusuf",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302194032"
+    }
+    {
+      "firstName": "Muhammad Amirul",
+      "lastName": "Gadavi",
+      "gender": "male",
+      "age": 19,
+      "nim": "1302200017"
+    }
+
+  ]
+}
