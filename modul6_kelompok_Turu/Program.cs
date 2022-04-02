@@ -14,6 +14,9 @@ namespace modul6_kelompok_Turu
         {
 			DataMahasiswa_1302204060_Eventa data = new DataMahasiswa_1302204060_Eventa();
 			data.readJSON(DataMahasiswa_1302204060_Eventa);
+
+			TeamMember_1302204060_Eventa teamMember = new TeamMember_1302204060_Eventa();
+			teamMember.redJSON(TeamMember_1302204060_Eventa);
 		}
 
 	}
@@ -39,6 +42,25 @@ namespace modul6_kelompok_Turu
 				Console.WriteLine("Kode matkul : " + item.code);
 				Console.WriteLine("Nama matkul : " + item.name);
 			}
+			Console.WriteLine();
+			return main();
+		}
+	}
+
+	internal class TeamMember_1302204060_Eventa
+	{
+		public static void main readJSON()
+		{
+			String jsonString = File.ReadAllText("D://KULIAH//Semester_4//Mata_Kuliah//KONSTRUKSI_PERANGKAT_LUNAK//Praktikum//Modul_6//modul6_kelompok_Turu//modul6_kelompok_Turu//jurnal6_2_1302204060");
+
+			dynamic data = JsonConvert.DeserializeObject(jsonString);
+
+
+
+			Console.WriteLine("Nama : " + data.firstName + " " + data.lastName);
+			Console.WriteLine("Gender : " + data.gender);
+			Console.WriteLine("Umur : " + data.age);
+			Console.WriteLine("Nim : " + data.nim);
 			Console.WriteLine();
 			return main();
 		}

@@ -1,0 +1,25 @@
+{
+  "members" : [
+    {
+       "firstName": "Muhammad Amirul",
+       "lastName": "Gadavi",
+       "gender": "male",
+       "age": 19,
+       "nim": "1302200017"
+    },
+    {
+       "firstName": "Nuruddin Rityo ",
+       "lastName": "Salindra",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302204014"
+    },
+    {
+       "firstName": "Rizky Eventa",
+       "lastName": "Bahtiar",
+       "gender": "male",
+       "age": 19,
+       "nim": "1302204060"
+    }
+  ]
+}
