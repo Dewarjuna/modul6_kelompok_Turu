@@ -6,10 +6,10 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace modul6_Kelompok_Turu
+namespace modul6_kelompok_Turu
 {
-	internal class DataMahasiswa_1302194032_Anwar
-	{
+    internal class DataMahasiswa_1302194032_AnwarYusuf
+    {
 		public static void main readJSON()
 		{
 			String jsonString = File.ReadAllText("C:\Users\user\Anwar Yusuf\jurnal 6\modul6_kelompok_Turu");
@@ -33,4 +33,5 @@ namespace modul6_Kelompok_Turu
 			return main();
 		}
 	}
+}
 }
