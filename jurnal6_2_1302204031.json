@@ -1,0 +1,46 @@
+{
+  "members": [
+    {
+      "firstName": "Dewa",
+      "lastName": "Arjuna",
+      "gender": "male",
+      "age": 20,
+      "nim": "130224031"
+    },
+    {
+      "firstName": "Epenta",
+      "lastName": "Smith",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204060"
+    },
+    {
+      "firstName": "rityo",
+      "lastName": "salindra",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302204014"
+    },
+    {
+      "firstName": "amirul",
+      "lastName": "gadavi",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302200017"
+    },
+    {
+      "firstName": "aldiansyah",
+      "lastName": ".",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302190051"
+    },
+    {
+      "firstName": "anwar",
+      "lastName": "yusuf",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302194032"
+    }
+  ]
+}

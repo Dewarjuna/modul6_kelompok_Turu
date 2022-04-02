@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace modul6_kelompok_Turu
 {
-    internal class DataMahasiswa_1302204031_Dewa
+    internal class TeamMembers_1302204031
     {
         public class data1
         {
@@ -16,6 +16,7 @@ namespace modul6_kelompok_Turu
             public string lastname;
             public string gender;
             public int age;
+            public string nim;
         }
 
         public void ReadJSON()
@@ -25,20 +26,14 @@ namespace modul6_kelompok_Turu
             //data1 dataMahasiswa = JsonSerializer.Deserialize<data1>(dataStr);
             dynamic data = JsonConvert.DeserializeObject(dataStr);
 
-
-
-            Console.WriteLine("Nama : " + data.firstName + " " + data.lastName);
-            Console.WriteLine("Gender : " + data.gender);
-            Console.WriteLine("Umur : " + data.age);
-            Console.WriteLine("Alamat : " + data.address.streetAddress + ", " + data.address.city + ", " + data.address.state);
-            Console.WriteLine("Mata Kuliah : ");
-            foreach (var item in data.courses)
+            foreach (var item in data.members)
             {
+                Console.WriteLine("Nim : " + item.nim);
+                Console.WriteLine("Nama : " + item.firstName + " " + item.lastName);
+                Console.WriteLine("Gender : " + item.gender);
+                Console.WriteLine("Umur : " + item.age);
                 Console.WriteLine();
-                Console.WriteLine("Kode matkul : " + item.code);
-                Console.WriteLine("Nama matkul : " + item.name);
             }
-            Console.WriteLine();
         }
     }
 }

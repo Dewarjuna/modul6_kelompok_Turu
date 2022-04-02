@@ -15,6 +15,9 @@ namespace modul6_kelompok_Turu
             DataMahasiswa_1302204031_Dewa data = new DataMahasiswa_1302204031_Dewa();
             data.ReadJSON();
 
+            TeamMembers_1302204031 member = new TeamMembers_1302204031();
+            member.ReadJSON();
+
             Console.WriteLine("");
         }
     }
